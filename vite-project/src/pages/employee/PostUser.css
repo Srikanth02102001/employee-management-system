@@ -1,0 +1,99 @@
+/* Core styling */
+.post-user-form {
+    max-width: 500px;
+    width: 90%;
+    margin: 2rem auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+.post-user-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 1.5rem;
+}
+
+/* Labels */
+.post-user-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Inputs, textarea, and select */
+.post-user-form input,
+.post-user-form textarea,
+.post-user-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.post-user-form input:focus,
+.post-user-form textarea:focus,
+.post-user-form select:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);
+}
+
+/* Submit button */
+.post-user-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.post-user-form button:hover {
+    background-color: #0056b3;
+}
+
+/* RESPONSIVE: Adjustments for mobile and small tablets */
+@media (max-width: 768px) {
+    .post-user-form {
+        padding: 15px;
+        margin: 1rem auto;
+    }
+
+    .post-user-form h2 {
+        font-size: 1.3rem;
+    }
+
+    .post-user-form input,
+    .post-user-form textarea,
+    .post-user-form select {
+        font-size: 13px;
+        padding: 8px;
+    }
+
+    .post-user-form button {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .post-user-form h2 {
+        font-size: 1.2rem;
+    }
+
+    .post-user-form button {
+        font-size: 14px;
+        padding: 9px;
+    }
+}
