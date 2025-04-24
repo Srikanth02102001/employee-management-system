@@ -15,4 +15,3 @@ A full-stack Employee Management System where user can perform **CRUD operations
 - Responsive UI
 - Connected to a real database
 
-## Project Structure
